@@ -1,0 +1,9 @@
+## This file contains the observations of Ad service refactoring
+
+Java Ad service:
+    CPU: {{ insert value }}
+    memory: {{ insert value }}
+
+Python Ad service:
+    CPU: {{ insert value }}
+    memory: {{ insert value }}
