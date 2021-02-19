@@ -17,3 +17,9 @@ Find **Protocol Buffers Descriptions** at the [`./pb` directory](./pb).
 | [productcatalogservice](./src/productcatalogservice) | Go            | Provides the list of products from a JSON file and ability to search products and get individual products.                        |
 | [currencyservice](./src/currencyservice)             | Node.js       | Converts one money amount to another currency. Uses real values fetched from European Central Bank. It's the highest QPS service. |
 | [adservice](./src/adservice)                         | Java          | Provides text ads based on given context words.                                                                                   |
+
+## Deploy
+To deploy this application to a Kubernetes cluster use the following command:
+```bash
+kubectl apply -f kubernetes-manifests/dev/
+```
