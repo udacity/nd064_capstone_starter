@@ -15,7 +15,7 @@ from logger import getJSONLogger
 logger = getJSONLogger('adservice-v2-server')
 
 
-class XYZ():
+class AdServiceV2():
     # TODO:
     # Implemet the Ad service business logic
 
